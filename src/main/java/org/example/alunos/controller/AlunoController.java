@@ -12,6 +12,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/v1/alunos")
 @Tag(name = "Alunos", description = "Operações CRUD para alunos")
+
 public class AlunoController {
 
     private final AlunoRepository repository;
